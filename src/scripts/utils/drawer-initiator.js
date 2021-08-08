@@ -1,3 +1,4 @@
+/* eslint-disable object-curly-newline */
 import colorMode from './color-mode-initiator';
 
 const DrawerInitiator = {

@@ -1,3 +1,4 @@
+/* eslint-disable object-curly-newline */
 import restaurantsDBSource from '../data/restaurantDB-source';
 import toastNotification from './toast-notification-initiator';
 
