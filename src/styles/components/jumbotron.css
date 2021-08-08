@@ -10,7 +10,7 @@
 
 .jumbotron {
   min-height: auto;
-  background-image: url('/images/hero.jpg');
+  background-image: url('/images/hero-large.jpg');
   background-repeat: unset;
   background-position: center;
   background-size: cover;
