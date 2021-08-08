@@ -1,0 +1,80 @@
+.recommendation-tittle {
+    color: var(--primary-color-100);
+    font-weight: 500;
+}
+
+.recommendation-desc {
+    color: var(--feature-description);
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.rec-desc {
+    color: var(--text-card-description);
+    line-height: 1.5em;
+}
+
+.rec-container {
+    overflow: hidden !important;
+}
+
+.overflow-x {
+    overflow-x: auto;
+}
+
+.card-recommendation-box {
+    background-color: var(--bg-feature);
+    border-radius: .5rem;
+    width: 500px;
+    height: 200px;
+    margin-right: 20px;
+    display: inline-table;
+    transition: ease-in-out .2s !important;
+}
+
+.pic-recommendation-container {
+    width: 250px;
+    height: 230px;
+    overflow: hidden;
+}
+
+.detail-rec-container {
+    width: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.rec-display {
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+#recommended-restaurants {
+    overflow-y: hidden;
+}
+
+.img-fluid-rec {
+    display: block !important;
+    height: 100%;
+    width: auto;
+    transition: transform .2s;
+}
+
+.img-fluid-rec:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 576px) {
+
+    .recommendation-tittle,
+    .recommendation-desc {
+        text-align: start !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card-recommendation-box:hover {
+        box-shadow: 0 2px 4px 0 var(--card-hover) !important;
+        transition: ease-in-out .2s !important;
+    }
+}

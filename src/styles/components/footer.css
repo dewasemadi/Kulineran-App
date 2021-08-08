@@ -1,0 +1,78 @@
+.brand-description-container {
+    background-color: var(--bg-footer-first);
+}
+
+.copyright-container {
+    background-color: var(--bg-footer-second);
+}
+
+.footer-brand {
+    color: var(--text-card-tittle);
+}
+
+.footer-description,
+.footer-contact-us,
+.footer-menu a,
+.copy-text,
+.kulineran-email {
+    color: var(--footer-text-color);
+}
+
+footer {
+    border-top: 1px solid var(--footer-border-top);
+}
+
+.footer-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.footer-description {
+    padding: 0 200px;
+}
+
+.foot-box,
+.foot-icon{
+    display: inline-block !important;
+    min-height: 50px !important;
+    min-width: 50px !important;
+}
+
+.foot-icon:before {
+    padding: .7em;
+}
+
+/* responsive */
+@media screen and (max-width: 768px) {
+    .footer-description {
+        padding: 0;
+    }
+
+    .copyright-area {
+        flex-direction: column-reverse;
+    }
+
+    .footer-detail-area {
+        flex-direction: column;
+    }
+
+    .footer-menu {
+        padding: .5rem 0 !important;
+    }
+
+    .footer-menu a {
+        margin: 0 !important;
+    }
+
+    .copy-text {
+        padding-top: 10px;
+    }
+
+    .footer-brand,
+    .footer-description,
+    .footer-contact-us,
+    .footer-icons {
+        text-align: start !important;
+    }
+}

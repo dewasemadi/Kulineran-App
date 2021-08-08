@@ -1,0 +1,67 @@
+@import url('./components/form.css');
+@import url('./components/card.css');
+@import url('./components/footer.css');
+@import url('./components/app-bar.css');
+@import url('./components/features.css');
+@import url('./components/jumbotron.css');
+@import url('./components/search-bar.css');
+@import url('./components/custom-scrollbar.css');
+@import url('./components/detail-restaurant.css');
+@import url('./components/toggle-color-mode.css');
+@import url('./components/toast-notification.css');
+@import url('./components/restaurant-recommendation.css');
+
+@import url('./animation/preloader.css');
+@import url('./animation/404-not-found.css');
+@import url('./animation/empty-favorites.css');
+@import url('./animation/not-found-search.css');
+@import url('./animation/review-illustration.css');
+
+@import url('./fonts.css');
+@import url('./utils.css');
+@import url('./color-mode.css');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    /* remove blue light tap effect when mobile */
+    -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-body-color);
+    min-height: 100vh;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.container {
+    padding: 0 1em;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 2.5em;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        padding: 0 9em;
+        max-width: 1200px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
