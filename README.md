@@ -2,7 +2,7 @@
 
 Final submission for "Menjadi Front-End Web Developer Expert" course at Dicoding Academy
 
-![kulineran netlify app_](https://user-images.githubusercontent.com/66185022/128743804-f1d86c63-47d3-45ac-98d9-ae082e2a554a.png)
+![kulineran netlify app_ (2)](https://user-images.githubusercontent.com/66185022/128746174-f86de8d4-0487-4b3d-89e0-0851c72a2268.png)
 
 ## Getting Started
 
@@ -87,6 +87,10 @@ npm run e2e
 - [imagemin](https://github.com/imagemin/imagemin)
 - [sharp](https://sharp.pixelplumbing.com/)
 - [lazysizes](https://www.npmjs.com/package/lazysizes)
+
+### Code Convention
+
+[AirBnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
 ---
 
