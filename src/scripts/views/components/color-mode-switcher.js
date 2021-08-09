@@ -6,7 +6,7 @@ class colorModeSwitcher extends HTMLElement {
   render() {
     this.innerHTML = `
       <div class="theme-switch-wrapper">
-          <label class="theme-switch" for="checkbox">
+          <label class="theme-switch">
               <input type="checkbox" id="checkbox" />
               <div class="slider round"></div>
           </label>
