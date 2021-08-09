@@ -1,6 +1,7 @@
 # Kulineran App
 
 Final submission for "Menjadi Front-End Web Developer Expert" course at Dicoding Academy
+[Click here](https://kulineran.netlify.app/) to see deployed app
 
 ![kulineran netlify app_ (2)](https://user-images.githubusercontent.com/66185022/128746174-f86de8d4-0487-4b3d-89e0-0851c72a2268.png)
 
