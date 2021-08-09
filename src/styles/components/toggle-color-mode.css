@@ -11,11 +11,6 @@
   width: 60px;
 }
 
-label:focus-within {
-  border: solid 1.5px black;
-  border-radius: 5px;
-}
-
 .theme-switch input {
   opacity: 0;
   width: 0;
@@ -58,4 +53,11 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  label:focus {
+    border: solid 1.5px black;
+    border-radius: 5px;
+  }
 }
